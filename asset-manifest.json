@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/space-toursim/static/css/main.596179a4.css",
+    "main.js": "/space-toursim/static/js/main.7a7f156b.js",
+    "static/js/787.9a841204.chunk.js": "/space-toursim/static/js/787.9a841204.chunk.js",
+    "static/media/logo.svg": "/space-toursim/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/space-toursim/index.html",
+    "main.596179a4.css.map": "/space-toursim/static/css/main.596179a4.css.map",
+    "main.7a7f156b.js.map": "/space-toursim/static/js/main.7a7f156b.js.map",
+    "787.9a841204.chunk.js.map": "/space-toursim/static/js/787.9a841204.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.596179a4.css",
+    "static/js/main.7a7f156b.js"
+  ]
+}

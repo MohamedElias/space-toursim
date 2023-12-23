@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Quicksand&family=Raleway:wght@100&display=swap');
+
+.navContainer{
+@apply grid grid-flow-col items-center 
+h-[96px] relative top-[40px]
+max-[1439px]:top-[0px] z-[5]
+}
+nav{
+   @apply h-full grid justify-center relative
+   backdrop-blur-[20px]
+   bg-white bg-opacity-[4%] max-[1439px]:before:hidden;
+}
+nav::before{
+   @apply h-[1px] w-[473px] bg-[#FFFFFF] opacity-[25%] absolute top-[50%] -left-[410px] ;
+   content: ''
+}
+.closeLogo{
+   @apply hidden
+}
+nav ul{
+@apply w-fit h-full grid grid-flow-col gap-[48px];
+font-family: 'Barlow Condensed', sans-serif;
+}
+
+nav ul span{
+   @apply mr-[14px] font-extrabold
+}
+
+nav li{
+   @apply w-fit grid items-center
+   text-white text-base relative text-center;
+}
+a.nav:after{
+   @apply absolute h-[3px] w-full bg-[#FFFFFF] hidden
+   bottom-0 left-[0]; 
+   content: '';
+}
+a.nav:hover::after{
+   @apply opacity-[50.21%] block
+}
+a.nav.activeLink::after{
+   @apply block
+}
+@media (max-width:767px){
+   nav{
+      @apply fixed right-0 -top-[0px] 
+      w-[254px] h-[100vh]
+   }
+   nav ul{
+      @apply h-fit w-[254px] grid-flow-row gap-[11px] 
+      relative top-[118px] 
+      pl-[32px] 
+   }
+   .open-closeLogo{
+      @apply absolute top-[36.5px] right-[24px]
+   }
+   a.nav:after{
+      @apply hover:opacity-[100%] w-[4px] h-[31px] left-[219px] 
+   }
+}

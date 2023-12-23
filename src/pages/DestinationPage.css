@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400&family=Quicksand&family=Raleway:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+
+.mainContent{
+@apply w-full absolute top-[88px] box-border px-[24px] grid /* justify-center */
+/* responsive Tablet*/
+min-[768px]:top-[136px] min-[768px]:px-[38.5px]
+/* responsive Large screens*/
+min-[1440px]:grid-cols-2 min-[1440px]:w-[1110px] 
+min-[1440px]:justify-self-center min-[1440px]:p-[0px]
+min-[1440px]:top-[212px]
+}
+.mainContent *{
+   @apply justify-self-center
+
+}
+.Header{
+   font-family: "Barlow Condensed", sans-serif;
+   @apply text-white tracking-[2.7px] text-[16px] leading-[19px] mb-[32px]
+   /* responsive Tablet*/
+   min-[768px]:justify-self-start min-[768px]:tracking-[3.38px]
+   min-[768px]:text-[20px] min-[768px]:leading-[24px]
+   min-[768px]:mb-[60px]
+   /* responsive Large screens*/
+   min-[1440px]:col-span-2 min-[1440px]:tracking-[4.72px] 
+   min-[1440px]:text-[28px] min-[1440px]:leading-[34px] 
+   min-[1440px]:mb-[64px]
+} 
+.Header span{
+   @apply opacity-[25%] mr-[18px]
+   /* responsive Tablet*/
+   min-[768px]:mr-[19px]
+   /* responsive Large screens*/
+   min-[1440px]:mr-[20px]
+}
+.destimg{
+   @apply h-[170px] w-[170px] mb-[26px]
+   /* responsive Tablet*/
+   min-[768px]:h-[300px] min-[768px]:w-[300px]
+   min-[768px]:mb-[53px]
+      /* responsive Large screens*/
+      min-[1440px]:h-[445px] min-[1440px]:w-[445px]
+      min-[1440px]:mb-0 min-[1440px]:self-end
+}
+.destTextContainer{
+   @apply grid 
+   /* responsive Tablet*/
+   min-[768px]:mx-[58px]
+   /* responsive Large screens*/
+   min-[1440px]:mx-[0px] min-[1440px]:w-[445px]
+   min-[1440px]:justify-self-end
+}
+.destTextContainer *{
+   @apply    
+   /* responsive Large screens*/
+   min-[1440px]:justify-self-start
+}
+/* ----------------------------- */
+.destFilter{
+   @apply flex gap-[27px] mb-[20px] leading-[28px]
+   /* responsive Tablet*/
+   min-[768px]:gap-[36px] min-[768px]:mb-[32px] 
+   min-[768px]:leading-[36px]
+   /* responsive Large screens*/
+   min-[1440px]:mb-[37px] 
+}
+.destFilter input{
+   @apply hidden
+}
+.destFilter label{
+   font-family: "Barlow Condensed", sans-serif;
+   @apply relative text-[#D0D6F9] text-[14px] tracking-[2.36px] after:content-[''] 
+   /* responsive Tablet*/
+   min-[768px]:text-[16px] min-[768px]:tracking-[2.7px]
+}
+.destFilter label::after{
+   @apply  absolute w-full h-[3px] bg-white 
+   bottom-[-8px] left-0 hidden
+}
+.destFilter label:hover::after{
+   @apply block opacity-[50.21%]
+}
+.destFilter input:checked + label::after{
+   @apply block 
+}
+/* ----------------- */
+.destTitle{
+   font-family: "Bellefair", serif;
+   @apply text-white text-[58px] leading-[64px]
+   /* responsive Tablet*/
+   min-[768px]:text-[80px] min-[768px]:leading-[92px]
+      /* responsive Large screens*/
+      min-[1440px]:text-[100px] min-[1440px]:leading-[115px]
+}
+.destDescription{
+   @apply text-[#D0D6F9] border-b-[3px] border-[#383B4B]
+   text-[15px] text-center leading-[25px]  pb-[32px] mb-[33px]
+   /* responsive Tablet*/
+   min-[768px]:text-[16px] min-[768px]:leading-[28px]
+   /* responsive Large screens*/
+   min-[1440px]:text-[18px] min-[1440px]:leading-[32px]
+   min-[1440px]:pb-[54px]  min-[1440px]:mb-[29px]
+   min-[1440px]:text-start
+}
+.infoContainer{
+   @apply  grid w-full
+   /* responsive Tablet*/
+   min-[768px]:grid-flow-col min-[768px]:px-[66px]
+   /* responsive Large screens*/
+   min-[1440px]:px-[0px] min-[1440px]:gap-[79.5px]
+   min-[1440px]:w-fit
+}
+.infoTitle{
+   font-family: "Barlow Condensed", sans-serif;
+   @apply leading-[17px] mb-[12px] text-[14px] text-[#D0D6F9] tracking-[2.36px] text-center
+}
+.infoData{
+   font-family: "Bellefair", serif;
+   @apply leading-[32px] text-white text-[28px] text-center
+}
+/* AVG. DISTANCE */
+
+
+

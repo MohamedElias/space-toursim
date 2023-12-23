@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400&family=Quicksand&family=Raleway:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+main.mainHome {
+   @apply w-full absolute top-[112px] grid justify-center gap-[81px] 
+      /* responsive */
+   min-[768px]:top-[202px]
+   
+}
+.homeTextContainer {
+   /* Small Screens */
+   @apply w-[327px] h-[276px] grid gap-[16px]
+   /* responsive Tablet*/
+   min-[768px]:w-[450px] min-[768px]:h-[334px] min-[768px]:gap-[24px]
+   /* responsive Large screens*/
+   min-[1440px]:h-[382px]
+}
+p.homeText {
+   @apply text-[#D0D6F9] text-center
+      /* responsive Large screens*/
+      min-[1440px]:text-start;
+   
+}
+p.homeText:first-child {
+   @apply tracking-[2.7px] text-[16px]
+   /* responsive Tablet*/
+   min-[768px]:tracking-[3.38px] min-[768px]:text-[20px]
+   /* responsive Large screens*/
+   min-[1440px]:tracking-[4.72px] min-[1440px]:text-[28px]
+   ;
+   font-family: "Barlow Condensed", sans-serif;
+   
+}
+p.homeText:nth-child(2) {
+   @apply text-white text-[80px] leading-[100px]
+      /* responsive Tablet*/
+      min-[768px]:text-[150px] min-[768px]:leading-[150px]
+      ;
+   font-family: "Bellefair", serif;
+
+}
+p.homeText:nth-child(3) {
+   @apply text-[15px] leading-[25px]
+   /* responsive Tablet*/
+   min-[768px]:text-[16px] min-[768px]:leading-[28px]
+   /* responsive Large screens*/
+   min-[1440px]:text-[18px] min-[1440px]:leading-[32px]
+   ;
+   font-family: "Barlow", sans-serif;
+}
+.explore {
+   @apply w-[150px] h-[150px] relative rounded-full bg-white grid items-center justify-center justify-self-center
+   tracking-[1.25px] text-[20px];
+   font-family: "Bellefair", serif;
+   transform-style: preserve-3d;
+}
+
+@media (min-width:768px){
+   .body{
+      @apply grid
+   }
+   .explore {
+      @apply h-[242px] w-[242px]
+      tracking-[2px] text-[32px]
+   }
+}
+@media (min-width:1440px){
+   /* body was here */
+   main.mainHome {
+      @apply top-[387px] grid-flow-col justify-between w-[1110px] justify-self-center;
+   }
+
+   .explore {
+      @apply h-[274px] w-[274px] self-end;
+   }
+   .explore::after{
+      @apply  w-[274px] h-[274px] rounded-full 
+      absolute bg-white opacity-[10.36%]
+      transition-all duration-200;
+      content: '';
+      transform: translateZ(-1px);
+   }
+   .explore:hover::after{
+      @apply scale-[1.642];
+   }
+}

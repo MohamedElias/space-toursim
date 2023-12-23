@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400&family=Quicksand&family=Raleway:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+
+.Tech.mainContent {
+   @apply px-0
+   /* responsive Large screens*/
+   min-[1440px]:grid-cols-[auto_1fr_auto]
+   min-[1440px]:w-[calc(100vw-165px)]
+   min-[1440px]:justify-self-end
+}
+.Tech.Header {
+   @apply relative
+   /* responsive Tablet*/
+   min-[768px]:left-[38.5px]
+   /* responsive Large screens*/
+   min-[1440px]:left-0 min-[1440px]:col-span-3 min-[1440px]:mb-[26px];
+}
+.techImg {
+   @apply w-full
+   /* responsive Large screens*/
+   min-[1440px]:col-start-3
+   /* responsive Large screens*/
+   min-[1440px]:w-[515px] min-[1440px]:h-[527px];
+}
+.techImg img {
+   @apply h-[170px] w-full object-cover
+   /* responsive Tablet*/
+   min-[768px]:h-[310px]
+   /* responsive Large screens*/
+   min-[1440px]:h-[527px];
+}
+/* //////////////////////////////////////// */
+.techFilter {
+   @apply grid grid-flow-col gap-[16px] mt-[34px]
+   /* responsive Tablet*/
+   min-[768px]:mt-[56px]
+   /* responsive Large screens*/
+   min-[1440px]:col-start-1 min-[1440px]:row-start-2
+   min-[1440px]:grid-flow-row min-[1440px]:self-center
+   min-[1440px]:gap-[32px] min-[1440px]:mt-0;
+}
+.techFilter input {
+   @apply hidden;
+}
+.techFilter input:checked + label div {
+   @apply border-none bg-white text-[#0B0D17];
+}
+.techFilter label div {
+   font-family: "Bellefair", serif;
+   @apply grid items-center justify-center 
+   rounded-full border-[1px] border-white/[25%] h-[40px] w-[40px]
+   /* responsive Tablet*/
+   min-[768px]:h-[60px] min-[768px]:w-[60px]
+   min-[768px]:text-[24px]
+   /* responsive Large screens*/
+   min-[1440px]:h-[80px] min-[1440px]:w-[80px] 
+   min-[1440px]:text-[32px];
+}
+.techFilter label div:hover {
+   @apply border-white;
+}
+/* //////////////////////////////////////// */
+.techTextContainer {
+   @apply mt-[26px] px-[24px] grid justify-center
+   /* responsive Tablet*/
+   min-[768px]:mt-[44px] min-[768px]:px-[155px]
+   /* responsive Large screens*/
+   min-[1440px]:col-start-2 min-[1440px]:row-start-2
+   min-[1440px]:mt-[0px] min-[1440px]:px-[0px] min-[1440px]:ml-[80px]
+   min-[1440px]:max-w-[470px]
+   min-[1440px]:self-center min-[1440px]:justify-self-start;
+}
+.techTitle {
+   font-family: "Barlow Condensed", sans-serif;
+   @apply text-[#D0D6F9] text-[14px] tracking-[2.36px] leading-[17px]
+   /* responsive Tablet*/
+   min-[768px]:text-[16px] min-[768px]:tracking-[2.7px] min-[768px]:leading-[19px]
+   /* responsive Large screens*/
+   min-[1440px]:justify-self-start;
+}
+.techName {
+   font-family: "Bellefair", serif;
+   @apply text-white text-[24px] leading-[28px] mt-[9px]
+   /* responsive Tablet*/
+   min-[768px]:text-[40px] min-[768px]:leading-[46px] min-[768px]:mt-[16px]
+   /* responsive Large screens*/
+   min-[1440px]:text-[56px] min-[1440px]:leading-[64px] min-[1440px]:mt-[11px]
+   min-[1440px]:justify-self-start;
+}
+.techDescription {
+   font-family: "Barlow", sans-serif;
+   @apply text-[#D0D6F9] text-center text-[15px] leading-[25px]  mt-[16px]
+   /* responsive Tablet*/
+   min-[768px]:text-[16px] min-[768px]:leading-[28px]
+   /* responsive Large screens*/
+   min-[1440px]:text-start min-[1440px]:text-[18px] 
+   min-[1440px]:leading-[32px] min-[1440px]:mt-[17px];
+}

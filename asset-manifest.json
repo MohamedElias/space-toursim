@@ -1,15 +1,42 @@
 {
   "files": {
-    "main.css": "/space-toursim/static/css/main.05851548.css",
-    "main.js": "/space-toursim/static/js/main.d9d8a8bd.js",
+    "main.css": "/space-toursim/static/css/main.d9f7befe.css",
+    "main.js": "/space-toursim/static/js/main.cd1f33f3.js",
     "static/js/787.9a841204.chunk.js": "/space-toursim/static/js/787.9a841204.chunk.js",
+    "static/media/image-victor glover.png": "/space-toursim/static/media/image-victor glover.8a9a5424588b73ec61c2.png",
+    "static/media/image-anousheh ansari.png": "/space-toursim/static/media/image-anousheh ansari.2d647128496ddc638acd.png",
+    "static/media/image-mark shuttleworth.png": "/space-toursim/static/media/image-mark shuttleworth.fc30f35b05fc0bc4ee47.png",
+    "static/media/image-douglas hurley.png": "/space-toursim/static/media/image-douglas hurley.7540fbb61923064f065e.png",
+    "static/media/image-spaceport-portrait.jpg": "/space-toursim/static/media/image-spaceport-portrait.8c79842c856482b94353.jpg",
+    "static/media/background-home-desktop.jpg": "/space-toursim/static/media/background-home-desktop.cdf3864ecbfdf20e8c3b.jpg",
+    "static/media/image-moon.png": "/space-toursim/static/media/image-moon.d287d07182de3015952f.png",
+    "static/media/background-destination-desktop.jpg": "/space-toursim/static/media/background-destination-desktop.468b922c69bf5499b4bc.jpg",
+    "static/media/image-europa.png": "/space-toursim/static/media/image-europa.3e95f7d0a16fe2ebf4c6.png",
+    "static/media/background-home-tablet.jpg": "/space-toursim/static/media/background-home-tablet.bc9efcc3281fa6801077.jpg",
+    "static/media/image-mars.png": "/space-toursim/static/media/image-mars.1b224c8663251270d79f.png",
+    "static/media/image-spaceport-landscape.jpg": "/space-toursim/static/media/image-spaceport-landscape.0f3ca5c05a3e87191ea7.jpg",
+    "static/media/background-crew-desktop.jpg": "/space-toursim/static/media/background-crew-desktop.88a3c692fd34eb311e04.jpg",
+    "static/media/background-destination-tablet.jpg": "/space-toursim/static/media/background-destination-tablet.8f55d346d8b6cfd95ab7.jpg",
+    "static/media/image-titan.png": "/space-toursim/static/media/image-titan.d4b078f9ce17e686ae99.png",
+    "static/media/background-technology-desktop.jpg": "/space-toursim/static/media/background-technology-desktop.b7b589b3c0c5ef0811d4.jpg",
+    "static/media/image-launch vehicle-landscape.jpg": "/space-toursim/static/media/image-launch vehicle-landscape.8237d926af4e9aed4156.jpg",
+    "static/media/background-crew-tablet.jpg": "/space-toursim/static/media/background-crew-tablet.16d51cf61e98ce45eb61.jpg",
+    "static/media/image-space capsule-portrait.jpg": "/space-toursim/static/media/image-space capsule-portrait.dd0ac138afef98c1666a.jpg",
+    "static/media/image-space capsule-landscape.jpg": "/space-toursim/static/media/image-space capsule-landscape.d672da81d5ff3ada7301.jpg",
+    "static/media/image-launch vehicle-portrait.jpg": "/space-toursim/static/media/image-launch vehicle-portrait.0c758955a178bdcc3230.jpg",
+    "static/media/background-home-mobile.jpg": "/space-toursim/static/media/background-home-mobile.13f7adecbcb3c3f170d8.jpg",
+    "static/media/background-technology-tablet.jpg": "/space-toursim/static/media/background-technology-tablet.48c38b028217ee0096c4.jpg",
+    "static/media/background-destination-mobile.jpg": "/space-toursim/static/media/background-destination-mobile.e0131e27e751ead1a922.jpg",
     "index.html": "/space-toursim/index.html",
-    "main.05851548.css.map": "/space-toursim/static/css/main.05851548.css.map",
-    "main.d9d8a8bd.js.map": "/space-toursim/static/js/main.d9d8a8bd.js.map",
+    "static/media/logo.svg": "/space-toursim/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
+    "static/media/icon-close.svg": "/space-toursim/static/media/icon-close.d47fda63cbd8b3fedbbc1b2a53f64470.svg",
+    "static/media/icon-hamburger.svg": "/space-toursim/static/media/icon-hamburger.5273efa7c50e96ef3e51e7a2b54048ce.svg",
+    "main.d9f7befe.css.map": "/space-toursim/static/css/main.d9f7befe.css.map",
+    "main.cd1f33f3.js.map": "/space-toursim/static/js/main.cd1f33f3.js.map",
     "787.9a841204.chunk.js.map": "/space-toursim/static/js/787.9a841204.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05851548.css",
-    "static/js/main.d9d8a8bd.js"
+    "static/css/main.d9f7befe.css",
+    "static/js/main.cd1f33f3.js"
   ]
 }

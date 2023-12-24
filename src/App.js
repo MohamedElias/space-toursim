@@ -1,4 +1,4 @@
-import { RouterProvider, createHashRouter } from 'react-router-dom';
+import { RouterProvider, createBrowserRouter} from 'react-router-dom';
 import './App.css';
 import RootLayout from './pages/Root';
 import HomePage from './pages/HomePage';
@@ -7,9 +7,8 @@ import CrewPage from './pages/CrewPage';
 import TechnologyPage from './pages/TechnologyPage';
 
 function App() {
-  const router = createHashRouter([
-    {
-      
+  const router = createBrowserRouter([
+    { 
       path:'/',
       element:<RootLayout/>,
       children:[
@@ -19,7 +18,7 @@ function App() {
         {path:'technology', element:<TechnologyPage/>}
       ]
 
-  }])
+  }],{basename:'/space-toursim'})
   return (
     <>
     <RouterProvider router={router}>

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/space-toursim/static/css/main.d9f7befe.css",
-    "main.js": "/space-toursim/static/js/main.cd1f33f3.js",
+    "main.js": "/space-toursim/static/js/main.e3df3040.js",
     "static/js/787.9a841204.chunk.js": "/space-toursim/static/js/787.9a841204.chunk.js",
     "static/media/image-victor glover.png": "/space-toursim/static/media/image-victor glover.8a9a5424588b73ec61c2.png",
     "static/media/image-anousheh ansari.png": "/space-toursim/static/media/image-anousheh ansari.2d647128496ddc638acd.png",
@@ -32,11 +32,11 @@
     "static/media/icon-close.svg": "/space-toursim/static/media/icon-close.d47fda63cbd8b3fedbbc1b2a53f64470.svg",
     "static/media/icon-hamburger.svg": "/space-toursim/static/media/icon-hamburger.5273efa7c50e96ef3e51e7a2b54048ce.svg",
     "main.d9f7befe.css.map": "/space-toursim/static/css/main.d9f7befe.css.map",
-    "main.cd1f33f3.js.map": "/space-toursim/static/js/main.cd1f33f3.js.map",
+    "main.e3df3040.js.map": "/space-toursim/static/js/main.e3df3040.js.map",
     "787.9a841204.chunk.js.map": "/space-toursim/static/js/787.9a841204.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d9f7befe.css",
-    "static/js/main.cd1f33f3.js"
+    "static/js/main.e3df3040.js"
   ]
 }
